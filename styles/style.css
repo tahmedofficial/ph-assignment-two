@@ -134,6 +134,32 @@ main {
     margin-top: 24px;
 }
 
+/* Section eight related styles */
+
+.section_eight {
+    display: flex;
+}
+
+.section_eight_container_one {
+    padding-right: 40px;
+}
+
+.section_eight_ul {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--title_color);
+}
+
+.section_eight_relative_text{
+    position: relative;
+    bottom: 280px;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 /* Footer related styles */
 
 footer {
@@ -213,10 +239,20 @@ hr {
         display: none;
     }
 
-    /* section one */
-    .section_one_tours {
+    /* Primary styles */
+
+    .section_one_tours,
+    .section_eight {
         flex-direction: column;
     }
+
+    .primry_section_image {
+        padding-left: 40px;
+        width: 320px;
+        margin-top: 30px;
+    }
+
+    /* section one */
 
     .section_one_tours_div_one {
         padding: 10px;
@@ -236,6 +272,12 @@ hr {
     .section_two_container,
     .footer_description {
         width: 300px;
+    }
+
+    /* section eight */
+    .section_eight_relative_text{
+        bottom: 170px;
+        font-size: 1.2rem;
     }
 
     /* footer section */
