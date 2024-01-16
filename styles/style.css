@@ -134,6 +134,35 @@ main {
     margin-top: 24px;
 }
 
+/* Footer related styles */
+
+footer {
+    height: 500px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer_container {
+    text-align: center;
+}
+
+.footer_title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_title {
+    margin-left: 15px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.footer_description {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Mobile screen responsive */
 @media screen and (max-width:600px) {
 
