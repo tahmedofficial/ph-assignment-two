@@ -4,3 +4,59 @@
 * {
     font-family: 'Mulish', sans-serif;
 }
+
+/* Shared styles */
+
+:root {
+    --primary_color: #FF5400;
+    --discription_color: #131318b3;
+}
+
+/* Header related styles */
+
+header {
+    margin: 30px 130px;
+}
+
+/* nav bar */
+nav {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h3 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    padding-left: 1rem;
+}
+
+.company_name {
+    display: flex;
+    align-items: center;
+}
+
+.travle {
+    color: var(--primary_color);
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 44px;
+}
+
+.nav_a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+#home {
+    color: var(--primary_color);
+}
