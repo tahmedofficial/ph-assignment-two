@@ -137,12 +137,13 @@ main {
 /* Footer related styles */
 
 footer {
-    height: 500px;
+    height: 550px;
     background: rgba(19, 19, 24, 0.05);
 }
 
 .footer_container {
     text-align: center;
+    padding-top: 100px;
 }
 
 .footer_title_container {
@@ -161,6 +162,24 @@ footer {
     width: 750px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer_icon_container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.f_icon {
+    margin-right: 30px;
+}
+
+hr {
+    width: 870px;
+    height: 1px;
+}
+
+.footer_copy_rights {
+    margin-top: 50px;
 }
 
 /* Mobile screen responsive */
@@ -214,8 +233,15 @@ footer {
 
     /* section two */
 
-    .section_two_container {
+    .section_two_container,
+    .footer_description {
         width: 300px;
+    }
+
+    /* footer section */
+
+    hr {
+        width: 330px;
     }
 
 }
