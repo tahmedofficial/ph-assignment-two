@@ -189,9 +189,34 @@ main {
 
 .section_seven_container {
     width: 1170px;
-    height: 500px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_seven_img {
+    width: 1200px;
+    height: 600px;
     border-radius: 16px;
-    background-image: url('../Images/seven-one.jpg');
+}
+
+.section_seven_card {
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    width: 500px;
+    height: 300px;
+    position: relative;
+    bottom: 520px;
+    left: 470px;
+    padding: 60px;
+}
+
+.section_seven_title_two {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--primary_color);
 }
 
 /* Section eight related styles */
