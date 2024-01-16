@@ -132,7 +132,7 @@ main {
 
 /* Section three */
 
-.section_three_row{
+.section_three_row {
     display: flex;
     gap: 24px;
     justify-content: center;
@@ -340,7 +340,8 @@ hr {
     .section_one_tours,
     .section_eight,
     .section_nine,
-    .section_five_container_one {
+    .section_five_container_one,
+    .section_three_row {
         flex-direction: column;
     }
 
@@ -370,6 +371,17 @@ hr {
     .section_two_container,
     .footer_description {
         width: 300px;
+    }
+
+    /* section three */
+
+    .section_three_row{
+        text-align: center;
+    }
+
+    .section_three_img {
+        width: 335px;
+        height: 176px;
     }
 
     /* section five  */
