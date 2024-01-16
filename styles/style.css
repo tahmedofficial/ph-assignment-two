@@ -192,6 +192,7 @@ main {
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 24px;
 }
 
 .section_seven_img {
@@ -213,10 +214,54 @@ main {
     padding: 60px;
 }
 
+#section_seven_card_id {
+    left: 80px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    width: 500px;
+    height: 300px;
+    position: relative;
+    bottom: 520px;
+    padding: 60px;
+}
+
+.section_seven_card_title {
+    display: flex;
+    align-items: center;
+}
+
+.section_seven_icon {
+    padding-right: 8px;
+}
+
+.section_seven_text {
+    padding-right: 24px;
+}
+
 .section_seven_title_two {
     font-size: 1.25rem;
     font-weight: 800;
     color: var(--primary_color);
+}
+
+.section_seven_button {
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: var(--primary_color);
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.section_seven_button_container{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 110px;
 }
 
 /* Section eight related styles */
