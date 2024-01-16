@@ -113,10 +113,6 @@ main {
 
 /* Section Two related styles */
 
-/* .section_two{
-    text-align: center;
-} */
-
 .section_two_container {
     width: 640px;
     margin-left: auto;
@@ -132,6 +128,47 @@ main {
 #section_two_description {
     text-align: center;
     margin-top: 24px;
+}
+
+/* Section five  */
+
+.section_five_container_one {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.section_five_element_one {
+    margin-left: auto;
+    justify-content: center;
+    width: 573px;
+    height: 284px;
+    padding: 35px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.section_five_element_two {
+    margin-right: auto;
+    justify-content: center;
+    width: 573px;
+    height: 284px;
+    padding: 35px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.section_five_container_two {
+    margin-left: auto;
+    margin-right: auto;
+    width: 573px;
+    height: 284px;
+    padding: 35px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
 }
 
 /* Section eight related styles */
@@ -293,7 +330,8 @@ hr {
 
     .section_one_tours,
     .section_eight,
-    .section_nine {
+    .section_nine,
+    .section_five_container_one {
         flex-direction: column;
     }
 
@@ -325,6 +363,17 @@ hr {
         width: 300px;
     }
 
+    /* section five  */
+
+    .section_five_element_one,
+    .section_five_element_two,
+    .section_five_container_two {
+        width: 335px;
+        height: 289px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     /* section eight */
     .section_eight_relative_text {
         bottom: 170px;
@@ -333,7 +382,7 @@ hr {
 
     /* Section nine */
 
-    .section_nine{
+    .section_nine {
         margin-bottom: 30px;
     }
 
@@ -342,7 +391,7 @@ hr {
         height: 1px;
     }
 
-    .section_nine_container_one{
+    .section_nine_container_one {
         width: auto;
     }
 
