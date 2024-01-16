@@ -91,6 +91,33 @@ nav li {
 
 /* Header image content related style */
 
+.header_section_image_container {
+    text-align: center;
+}
+
+.header_section_element_container {
+    position: relative;
+    bottom: 550px;
+}
+
+.header_section_title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+}
+
+.header_section_discription {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.header_section_image {
+    width: 1250px;
+    height: 550px;
+    border-radius: 16px;
+}
+
 /* Main related styles */
 
 main {
@@ -203,7 +230,6 @@ main {
 
 .section_seven_card {
     border-radius: 16px;
-    border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     width: 500px;
@@ -216,7 +242,6 @@ main {
 
 #section_seven_card_id {
     left: 80px;
-    border-radius: 16px;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
@@ -258,7 +283,7 @@ main {
     text-align: center;
 }
 
-.section_seven_button_container{
+.section_seven_button_container {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 110px;
@@ -477,6 +502,40 @@ hr {
         height: 289px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* section seveen */
+
+    .section_seven_img {
+        width: 335px;
+        height: 500px;
+        border-radius: 16px;
+    }
+
+    .section_seven_card,
+    #section_seven_card_id {
+        border: 2px solid #FFF;
+        width: 180px;
+        height: 300px;
+        bottom: 450px;
+        left: 20px;
+    }
+
+    .gone_seven {
+        display: none;
+    }
+
+    .seven_dis {
+        display: none;
+    }
+
+    .section_nine_container_one_title {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #description_seven {
+        margin-top: 2px;
     }
 
     /* section eight */
