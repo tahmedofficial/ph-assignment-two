@@ -205,6 +205,39 @@ main {
     margin-top: 50px;
 }
 
+.section_three_text_container {
+    position: relative;
+    bottom: 200px;
+    left: 220px;
+}
+
+.Srilanka {
+    left: 145px;
+}
+
+.America {
+    left: 140px;
+}
+
+.Kashmir {
+    left: 80px;
+}
+
+.Bangladesh {
+    left: 165px;
+}
+
+.Bandarban {
+    left: 250px;
+}
+
+.section_three_text {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: white;
+}
+
+
 /* Section five  */
 
 .section_five {
@@ -566,6 +599,15 @@ hr {
         width: 335px;
         height: 176px;
     }
+
+    .section_three_text_container {
+        bottom: 135px;
+        left: 0;
+    }
+
+    /* .section_three_text{
+
+    } */
 
     /* section five  */
 
