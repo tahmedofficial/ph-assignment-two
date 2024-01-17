@@ -713,6 +713,22 @@ hr {
         height: 52px;
     }
 
+    .section_nine_container_two_text {
+        width: 150px;
+        height: 70px;
+        background: var(--primary_color);
+        left: 140px;
+        bottom: 150px;
+    }
+
+    .section_nine_p {
+        font-size: 0.8rem;
+    }
+
+    .section_nine_h {
+        font-size: 1.26rem;
+        font-weight: 800;
+    }
 
     /* footer section */
 
