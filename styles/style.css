@@ -487,13 +487,44 @@ hr {
         display: none;
     }
 
+    /* Header section */
+
+    .header_section {
+        margin-top: 50px;
+    }
+
+    .header_section_image {
+        width: 335px;
+        height: 483px;
+    }
+
+    .header_section_title {
+        font-size: 1.35rem;
+        font-weight: 800;
+    }
+
+    .header_section_discription {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    .header_section_element_container {
+        bottom: 460px;
+    }
+
+    .header_section_button_container {
+        height: 250px;
+        width: auto;
+    }
+
     /* Primary styles */
 
     .section_one_tours,
     .section_eight,
     .section_nine,
     .section_five_container_one,
-    .section_three_row {
+    .section_three_row,
+    .header_section_button_container {
         flex-direction: column;
     }
 
